@@ -12,6 +12,11 @@
 		5D33B6AF2193B834003D5258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6AD2193B834003D5258 /* Main.storyboard */; };
 		5D33B6B12193B84B003D5258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6B02193B84B003D5258 /* Assets.xcassets */; };
 		5D33B6B42193B84B003D5258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6B22193B84B003D5258 /* LaunchScreen.storyboard */; };
+		5D33B6BF2193C487003D5258 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6BB2193C486003D5258 /* moo.m4a */; };
+		5D33B6C02193C487003D5258 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33B6BC2193C487003D5258 /* SimpleSound.swift */; };
+		5D33B6C12193C487003D5258 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6BD2193C487003D5258 /* woof.m4a */; };
+		5D33B6C22193C487003D5258 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6BE2193C487003D5258 /* meow.m4a */; };
+		5D5DA04F219570BA003349EA /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5DA04E219570BA003349EA /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5D33B6B02193B84B003D5258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D33B6B32193B84B003D5258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D33B6B52193B84C003D5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D33B6BB2193C486003D5258 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+		5D33B6BC2193C487003D5258 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		5D33B6BD2193C487003D5258 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		5D33B6BE2193C487003D5258 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		5D5DA04E219570BA003349EA /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				5D33B6AD2193B834003D5258 /* Main.storyboard */,
 				5D33B6B02193B84B003D5258 /* Assets.xcassets */,
 				5D33B6B22193B84B003D5258 /* LaunchScreen.storyboard */,
+				5D33B6BE2193C487003D5258 /* meow.m4a */,
+				5D33B6BB2193C486003D5258 /* moo.m4a */,
+				5D33B6BC2193C487003D5258 /* SimpleSound.swift */,
+				5D33B6BD2193C487003D5258 /* woof.m4a */,
 				5D33B6B52193B84C003D5258 /* Info.plist */,
+				5D5DA04E219570BA003349EA /* Animal.swift */,
 			);
 			path = AnimalSounds;
 			sourceTree = "<group>";
@@ -124,6 +139,9 @@
 			files = (
 				5D33B6B42193B84B003D5258 /* LaunchScreen.storyboard in Resources */,
 				5D33B6B12193B84B003D5258 /* Assets.xcassets in Resources */,
+				5D33B6BF2193C487003D5258 /* moo.m4a in Resources */,
+				5D33B6C12193C487003D5258 /* woof.m4a in Resources */,
+				5D33B6C22193C487003D5258 /* meow.m4a in Resources */,
 				5D33B6AF2193B834003D5258 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D33B6C02193C487003D5258 /* SimpleSound.swift in Sources */,
+				5D5DA04F219570BA003349EA /* Animal.swift in Sources */,
 				5D33B6AC2193B834003D5258 /* ViewController.swift in Sources */,
 				5D33B6AA2193B834003D5258 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
